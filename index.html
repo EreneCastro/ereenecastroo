@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Erene Castro Portfolio</title>
+  <style>
+    /* === Global Style === */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(180deg, #0a0f24, #1b2838);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      color: #ff6a00;
+    }
+
+    /* === Header === */
+    header {
+      background: linear-gradient(90deg, #ff6a00, #ee0979);
+      padding: 25px;
+      text-align: center;
+      color: white;
+      box-shadow: 0 4px 12px rgba(0,0,0,.4);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin: 8px 0 0;
+      font-size: 1.2rem;
+    }
+
+    /* === Navigation === */
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #111;
+      padding: 12px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ff6a00;
+    }
+
+    /* === Section Styling === */
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 2rem;
+    }
+
+    /* === Skills & Lists === */
+    .skills {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .skills span {
+      background: #222;
+      border: 2px solid #ff6a00;
+      border-radius: 20px;
+      padding: 8px 15px;
+      font-size: 14px;
+    }
+
+    /* === Hobbies (Gallery) === */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      max-height: 420px;
+      object-fit: contain; /* shows full image */
+      border-radius: 16px;
+      border: 3px solid #ff6a00;
+      background: #000;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.6);
+    }
+
+    /* === Contact === */
+    #contact p {
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    /* === Footer === */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      margin-top: 50px;
+      color: #aaa;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Erene Castro</h1>
+    <p>Personal Portfolio Website</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m <strong>Erene Castro</strong>, passionate about technology, sports, and creativity. This is my personal portfolio where I share my journey, education, skills, and hobbies.</p>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>2010 – 2016:</strong> E.T.C.S-2</li>
+      <li><strong>2016 – 2022:</strong> NOHS – HS/SHS</li>
+      <li><strong>2022 – 2026:</strong> STI West Negros University — Bachelor of Science in Information Technology</li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Teamwork</span>
+      <span>Patience</span>
+      <span>Time Management</span>
+      <span>Communication</span>
+      <span>Creativity</span>
+    </div>
+  </section>
+
+  <!-- Hobbies -->
+  <section id="hobbies">
+    <h2>Hobbies & Passion</h2>
+    <p style="text-align:center;">I enjoy playing basketball, both individually and with my team. Here are some photos:</p>
+    <div class="gallery">
+      <img src="capturebb2.jpg" alt="Basketball portrait">
+      <img src="capturebb3.jpg" alt="Basketball team group photo">
+      <img src="e8bd3f19-a035-4967-91b3-ea84627df8a9.jpg" alt="Extra basketball photo">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:erenekarl2020@gmail.com" style="color:#ff6a00;">erenekarl2020@gmail.com</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Erene Castro. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
